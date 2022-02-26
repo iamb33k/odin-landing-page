@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #0057b7;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.h-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
