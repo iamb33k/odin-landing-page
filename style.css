@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
 }
 
 .header {
@@ -14,10 +15,7 @@ body{
     padding-left: 40px;
     padding-right: 40px;
     background-color: #0057b7;
- 
 }
-
-
 
 .h-logo{
     color: #f9faf8;
@@ -25,10 +23,17 @@ body{
 }
 
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 .hero{
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    padding: 20px;
+    margin-left: 40px;
     align-items: center;
     background-color: #ffd700;
     margin: 0;
@@ -39,12 +44,17 @@ body{
     font-weight: bolder;
     color: #0057b7;
     padding: 0;
-    margin: 0;
+    margin-bottom: 10px;
+}
+
+.hero-subtext {
+    margin-top: 0;
 }
 
 .hero-pic {
     border-radius: 25px;
 }
+
 
 .hero-button {
     background-color: #0057b7;
@@ -69,6 +79,7 @@ body{
     margin: 0;
     padding-bottom: 22px;
 }
+
 .card-space {
     display: flex;
     margin: 0;
@@ -103,19 +114,53 @@ body{
 .quote-main {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #0057b7;
     text-align: center;
     margin-bottom: 16px;
 }
 
 .quote-info {
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
     margin-top: 0;
 }
 
+.CTA {
+    display: flex;
+    justify-content: center;
+    padding: 50px
+}
 
+.CTA-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 10px;
+    margin: 0;
+    gap: 16px;
+    background-color: #0057b7;
+    color: #e5e7eb;
+}
+
+.CTA-button {
+    background-color: #ffd700;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px #f9faf8;
+    color: #0057b7;
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0057b7;
+}
 
 a {
     text-decoration: none;
